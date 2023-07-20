@@ -1,5 +1,4 @@
-
-~Virtual Memory Allocator~
+Virtual Memory Allocator
 
 In this program I tried to recreate a simulator of a virtual Memory
 Allocator. 
@@ -7,10 +6,8 @@ The program is splitted in 3 files: vma, commands and main.
 Each file has it's own header file.
 
 In vma.h are the Macros, the structures and the functions used. 
-The macro DIE is used for the deffensive programming, given in the labs.
+The macro DIE is used for the deffensive programming.
 In vma.c they are all expanded.
-
-First of all, in the code I gave introduced the functions used in the labs for double linked list.
 
 Dll_create creates a generic double linked list, free_list frees it, dll_add_nt_node and dll_remove_nth_node inserts/removes a node in the list.
 
